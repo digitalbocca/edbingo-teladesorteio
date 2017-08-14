@@ -1,5 +1,13 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.2.0 ##
+## v0.3.0 ##
+
+**Mudanças na v0.3.0**
+
+- Adicionado um timer para sorteio automático.
+- Adicionado som na transição dos números.
+- Mudança nas animações.
+- Bootstrap via CDN.
+- Bootstrap atualizado para v4 beta.
 
 **Mudanças na v0.2.0**
 

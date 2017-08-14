@@ -10,10 +10,8 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
-    "bootstrap": "^4.0.0-alpha.6",
-    "jquery": "^3.2.0",
-    "tether": "^1.4.0",
-    "vue": "^2.2.2"
+    "vue": "^2.2.2",
+    "vue-audio": "0.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

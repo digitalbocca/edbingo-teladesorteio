@@ -65,6 +65,8 @@
               <h1 id="logo" @click="animaLogo()">EDBingo</h1>
             </div>
             <div class="col d-flex justify-content-end align-items-center">
+              <button @click="sauto()" type="button" class="btn btn-outline-secondary btn-sm">S.AUTO</button>&nbsp;
+              <button @click="parar()" type="button" class="btn btn-outline-secondary btn-sm">PARAR</button>&nbsp;
               <button @click="anime()" type="button" class="btn btn-outline-secondary btn-sm">SORTEIA</button>&nbsp;
               <button @click="abreModal('modalTabela')" type="button" class="btn btn-outline-secondary btn-sm">TABELA</button>&nbsp;
               <button type="button" class="btn btn-outline-secondary btn-sm">ENCERRA</button>&nbsp;
@@ -105,17 +107,27 @@ export default {
   },
   data() {
     return {
-      numeroAdicionado: 0
+      numeroAdicionado: 0,
+      musica: new Audio('static/sounds/sound.mp3')
     }
   },
   methods: {
+    sauto () {
+      let funcao = this.anime
+      let tempo = 10 * 1000
+      window.intervalo = setInterval(funcao, tempo)
+    },
+    parar () {
+      clearInterval(window.intervalo)
+    },
     anime: function() {
       var vm = this
       $('#bola')
-        .addClass('animated rollOut')
+        .addClass('animated zoomOutLeft')
         .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
           function(){
-            $('#bola').addClass('rollIn').removeClass('rollOut')
+            vm.musica.play()
+            $('#bola').addClass('zoomIn').removeClass('zoomOutLeft')
         })
       setTimeout(vm.addUm,1000)
     },
@@ -160,4 +172,6 @@ export default {
   .modal-giga
     width: 90% !important
     max-width: 90% !important
+  #tocador
+    display: none
 </style>
