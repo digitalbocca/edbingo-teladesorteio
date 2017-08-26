@@ -1,5 +1,5 @@
 # EDBingo - Tela de Sorteio #
-## v0.3.0 ##
+## v0.4.0 ##
 
 > Tela para um sorteio de Bingo.
 
@@ -30,9 +30,9 @@
 
 ---
 
->Este código é apenas para uso didático e não deve ser usado em produção.
+>Este código é para uso didático e não deve ser usado em produção.
 
->O código não segue nenhuma padronizaçâo, é apenas para simular o funcionamento.
+>Envie sua sugestão ou correção.
 
 >Obrigado.
 

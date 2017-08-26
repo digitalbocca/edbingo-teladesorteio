@@ -54,7 +54,7 @@
 <script>
 
   export default {
-    name: 'tabela'
+    name: 'Tabela'
   }
 
 </script>

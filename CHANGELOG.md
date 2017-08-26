@@ -1,5 +1,12 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.3.0 ##
+## v0.4.0 ##
+
+**Mudanças na v0.4.0**
+
+- Correção nos links.
+- Melhoria no Layout.
+- Separação de alguns componentes.
+- Alteração no README.
 
 **Mudanças na v0.3.0**
 

@@ -1,62 +1,7 @@
 <template>
   <div id="app" class="edb-altura-min">
-    <!--MODAL TABELA-->
-    <div class="modal fade" id="modalTabela" tabindex="-1" role="dialog" aria-labelledby="modalTabela" aria-hidden="true">
-      <div class="modal-dialog modal-giga">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">NÚMEROS SORTEADOS</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <tabela></tabela>
-          </div>
-          <div class="modal-footer">
-            <button @click="abreModal('modalTabela')" type="button" class="btn btn-primary">FECHAR</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--MODAL INFO-->
-    <div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="modalTabela" aria-hidden="true">
-      <div class="modal-dialog modal-md">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">SOBRE</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="row">
-              <div class="col text-center">
-                <h1>EDBingo</h1>
-                <p>Somente Exibição (Não Faz Sorteio)</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <h3 class="text-center">SOBRE</h3>
-                <ul>
-                  <li>Apenas para uso didático</li>
-                  <li>Vue 2</li>
-                  <li>Bootstrap 4</li>
-                  <li>Animate.css</li>
-                  <li><a href="#">github.com</a></li>
-                  <li><a href="#">http://estudiodigitalbocca.com.br/labs</a></li>
-                </ul>
-                <p class="text-center">&copy;2017 - Estúdio Digital Bocca</p>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button @click="abreModal('modalInfo')" type="button" class="btn btn-primary">FECHAR</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <modal-tabela></modal-tabela>
+    <modal-info></modal-info>
     <div class="edb-altura-min container-fluid d-flex flex-column justify-content-between">
       <div class="row">
         <div class="col">
@@ -78,7 +23,7 @@
       <div class="row">
         <div class="col text-center d-flex justify-content-center">
           <div id="bola" class="edb-numeracao">
-            <h1 class="edb-h1">{{numeroAdicionado}}</h1>
+            <h1 class="edb-h1">{{ numeroAdicionado }}</h1>
           </div>
         </div>
       </div>
@@ -93,19 +38,21 @@
 
 <script>
 
-import Tabela from './components/Tabela'
+import ModalTabela from './components/ModalTabela'
+import ModalInfo from './components/ModalInfo'
 
 export default {
   name: 'app',
   components: {
-    Tabela
+    ModalTabela,
+    ModalInfo
   },
   computed: {
-    numero: function() {
+    numero () {
       return //this.numeroAdicionado
     }
   },
-  data() {
+  data () {
     return {
       numeroAdicionado: 0,
       musica: new Audio('static/sounds/sound.mp3')
@@ -120,7 +67,7 @@ export default {
     parar () {
       clearInterval(window.intervalo)
     },
-    anime: function() {
+    anime () {
       var vm = this
       $('#bola')
         .addClass('animated zoomOutLeft')
@@ -131,13 +78,13 @@ export default {
         })
       setTimeout(vm.addUm,1000)
     },
-    animaLogo: function() {
+    animaLogo () {
       $('#logo').animateCss('shake')
     },
-    addUm: function() {
+    addUm () {
       this.numeroAdicionado++
     },
-    abreModal: function(id){
+    abreModal (id) {
       $('#'+id).modal('toggle')
     }
   }
