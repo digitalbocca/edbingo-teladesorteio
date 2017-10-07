@@ -1,5 +1,5 @@
 # EDBingo - Tela de Sorteio #
-## v0.4.0 ##
+## v0.5.0 ##
 
 > Tela para um sorteio de Bingo.
 
@@ -26,7 +26,7 @@
 ## OBSERVAÇÕES ##
 
 - Este programa não faz o sorteio, esta funcionalidade você deverá implementar no seu fork.
-- Demonstração: [http://estudiodigitalbocca.com.br/labs/edbingo-teladesorteio/](http://estudiodigitalbocca.com.br/labs/edbingo-teladesorteio/)
+- Demonstração: [https://digitalbocca.github.io/edbingo-teladesorteio](https://digitalbocca.github.io/edbingo-teladesorteio)
 
 ---
 

@@ -1,5 +1,10 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.4.0 ##
+## v0.5.0 ##
+
+**Mudanças na v0.5.0**
+
+- Automatizado o Controle de Versão.
+- Exemplo movido para GitHub Pages.
 
 **Mudanças na v0.4.0**
 

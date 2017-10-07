@@ -1,12 +1,23 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Tela para um sorteio de Bingo.",
   "author": "Gabriel Bertola Bocca <digitalbocca@gmail.com>",
   "private": true,
+  "config": {
+    "commitMessage": "Automatizado o Controle de Versão"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gporigin && npm run gpbitbucket && npm run gpgitlab",
+    "gitstatus": "git status",
+    "gitadd": "git add .",
+    "gittag": "git tag v%npm_package_version%",
+    "gitcommit": "git commit -m \"%npm_package_config_commitMessage%\"",
+    "gporigin": "git push origin master --tags",
+    "gpgitlab": "git push gitlab master --tags",
+    "gpbitbucket": "git push bitbucket master --tags"
   },
   "dependencies": {
     "animate.css": "^3.5.2",
