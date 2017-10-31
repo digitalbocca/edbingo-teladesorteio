@@ -1,11 +1,11 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Tela para um sorteio de Bingo.",
   "author": "Gabriel Bertola Bocca <digitalbocca@gmail.com>",
   "private": true,
   "config": {
-    "commitMessage": "Automatizado o Controle de Versão"
+    "commitMessage": "Atualização do bootstrap para v4.0.0-beta.2"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
