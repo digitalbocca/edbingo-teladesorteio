@@ -1,39 +1,27 @@
-<template>
-  <div id="app" class="edb-altura-min">
-    <modal-tabela></modal-tabela>
-    <modal-info></modal-info>
-    <div class="edb-altura-min container-fluid d-flex flex-column justify-content-between">
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <h1 id="logo" @click="animaLogo()">EDBingo</h1>
-            </div>
-            <div class="col d-flex justify-content-end align-items-center">
-              <button @click="sauto()" type="button" class="btn btn-outline-secondary btn-sm">S.AUTO</button>&nbsp;
-              <button @click="parar()" type="button" class="btn btn-outline-secondary btn-sm">PARAR</button>&nbsp;
-              <button @click="anime()" type="button" class="btn btn-outline-secondary btn-sm">SORTEIA</button>&nbsp;
-              <button @click="abreModal('modalTabela')" type="button" class="btn btn-outline-secondary btn-sm">TABELA</button>&nbsp;
-              <button type="button" class="btn btn-outline-secondary btn-sm">ENCERRA</button>&nbsp;
-              <button @click="abreModal('modalInfo')" type="button" class="btn btn-outline-secondary btn-sm">INFO</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center d-flex justify-content-center">
-          <div id="bola" class="edb-numeracao">
-            <h1 class="edb-h1">{{ numeroAdicionado }}</h1>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-center">
-          <p>(c)2017 - Estúdio Digital Bocca</p>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  .edb-altura-min#app
+    modal-tabela
+    modal-info
+    .edb-altura-min.container-fluid.d-flex.flex-column.justify-content-between
+      .row
+        .col
+          .row
+            .col
+              h1#logo(@click="animaLogo()") EDBingo
+            .col.d-flex.justify-content-end.align-items-center
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="sauto()") S.AUTO
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="parar()") PARAR 
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="anime()") SORTEIA 
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalTabela')") TABELA 
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button") ENCERRA 
+              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalInfo')") INFO 
+      .row
+        .col.text-center.d-flex.justify-content-center
+          .edb-numeracao#bola
+            h1.edb-h1 {{ numeroAdicionado }}
+      .row
+        .col.text-center
+          p (c)2017 - Estúdio Digital Bocca
 </template>
 
 <script>
@@ -100,6 +88,8 @@ export default {
   .edb-altura-min
     height: 100%
     min-height: 100%
+  .edb-cursor
+    cursor: pointer
   .edb-menu
     color: #ccc
   .edb-menu:hover

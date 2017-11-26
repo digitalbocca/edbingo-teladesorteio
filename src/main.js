@@ -7,10 +7,10 @@ window.vm = new Vue({
   el: '#app',
   template: '<App/>',
   components: { App },
-  created: function () {
+  created () {
     require('animate.css/animate.min.css')
     window.$.fn.extend({
-      animateCss: function (animationName) {
+      animateCss (animationName) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
         this.addClass('animated ' + animationName).one(animationEnd, function () {
           window.$(this).removeClass('animated ' + animationName)

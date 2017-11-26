@@ -1,23 +1,19 @@
-<template>
-  <div class="col-sm-12">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h1>EDBingo</h1>
-        <p>Somente Exibição (Não Faz Sorteio)</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <h3 class="text-center">SOBRE</h3>
-        <ul>
-          <li>Apenas para uso didático</li>
-          <li><a href="https://github.com/digitalbocca/edbingo-teladesorteio">https://github.com/digitalbocca/edbingo-teladesorteio</a></li>
-          <li><a href="http://estudiodigitalbocca.com.br/labs/edbingo-teladesorteio">http://estudiodigitalbocca.com.br/labs/edbingo-teladesorteio</a></li>
-        </ul>
-        <p class="text-center">&copy;2017 - Estúdio Digital Bocca</p>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  .col-sm-12
+    .row
+      .col-sm-12.text-center
+        h1 EDBingo
+        p Somente Exibição (Não Faz Sorteio)
+    .row
+      .col-sm-12
+        h3.text-center SOBRE
+        ul
+          li Apenas para uso didático
+          li
+            a(href="https://github.com/digitalbocca/edbingo-teladesorteio") https://github.com/digitalbocca/edbingo-teladesorteio
+          li
+            a(href="https://digitalbocca.github.io/edbingo-teladesorteio") https://digitalbocca.github.io/edbingo-teladesorteio
+        p.text-center &copy;2017 - Estúdio Digital Bocca
 </template>
 
 <script>

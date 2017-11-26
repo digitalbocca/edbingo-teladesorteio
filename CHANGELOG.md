@@ -1,5 +1,11 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.6.0 ##
+## v0.7.0 ##
+
+**Mudanças na v0.7.0**
+
+- Utilizando PUG no template.
+- Refatoração em partes do main.js.
+- Build não gera arquivos .map.
 
 **Mudanças na v0.6.0**
 

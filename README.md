@@ -1,5 +1,5 @@
 # EDBingo - Tela de Sorteio #
-## v0.6.0 ##
+## v0.7.0 ##
 
 > Tela para um sorteio de Bingo.
 
