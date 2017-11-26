@@ -1,11 +1,11 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Tela para um sorteio de Bingo.",
   "author": "Gabriel Bertola Bocca <digitalbocca@gmail.com>",
   "private": true,
   "config": {
-    "commitMessage": "Utilizando PUG no template"
+    "commitMessage": "Adicionado Badge Code Climate"
   },
   "scripts": {
     "dev": "node build/dev-server.js",

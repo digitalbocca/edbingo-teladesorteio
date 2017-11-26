@@ -1,5 +1,9 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.7.0 ##
+## v0.8.0 ##
+
+**Mudanças na v0.8.0**
+
+- Adicionado Badge Code Climate.
 
 **Mudanças na v0.7.0**
 
