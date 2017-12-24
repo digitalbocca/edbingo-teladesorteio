@@ -1,5 +1,9 @@
 ## EDBingo - Tela de Sorteio ##
-## v0.8.0 ##
+## v0.9.0 ##
+
+**Mudanças na v0.9.0**
+
+- Adicionado cross-var-no-babel.
 
 **Mudanças na v0.8.0**
 
