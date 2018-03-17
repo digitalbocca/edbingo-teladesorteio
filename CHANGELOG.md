@@ -1,9 +1,14 @@
 # EDBingo - Tela de Sorteio
 
-## v0.10.0
+## v0.10.1
+
+### Mudanças na v0.10.1
+
+- Correção no CHANGELOG.
 
 ### Mudanças na v0.10.0
 
+- Atualização nas datas.
 - Atualização do Bootstrap.
 - Fala o número sorteado.
 

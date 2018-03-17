@@ -1,11 +1,11 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Tela para um sorteio de Bingo.",
   "author": "Gabriel Bertola Bocca <digitalbocca@gmail.com>",
   "private": true,
   "config": {
-    "commitMessage": "Fala o número sorteado"
+    "commitMessage": "Correção no CHANGELOG"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
