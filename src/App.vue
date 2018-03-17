@@ -21,7 +21,7 @@
             h1.edb-h1 {{ numeroAdicionado }}
       .row
         .col.text-center
-          p (c)2017 - Estúdio Digital Bocca
+          p &copy;2017-2018 Estúdio Digital Bocca
 </template>
 
 <script>
@@ -61,7 +61,7 @@ export default {
         .addClass('animated zoomOutLeft')
         .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
           function(){
-            vm.musica.play()
+            // vm.musica.play()
             $('#bola').addClass('zoomIn').removeClass('zoomOutLeft')
         })
       setTimeout(vm.addUm,1000)
@@ -71,6 +71,9 @@ export default {
     },
     addUm () {
       this.numeroAdicionado++
+      let oNumero = this.numeroAdicionado.toString()
+      console.log(oNumero)
+      responsiveVoice.speak(oNumero, 'Brazilian Portuguese Female')
     },
     abreModal (id) {
       $('#'+id).modal('toggle')
