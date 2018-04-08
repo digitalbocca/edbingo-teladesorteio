@@ -1,6 +1,11 @@
 # EDBingo - Tela de Sorteio
 
-## v0.10.1
+## v0.11.0
+
+### Mudanças na v0.11.0
+
+- Adicionado comando start.
+- Atualização de dependências.
 
 ### Mudanças na v0.10.1
 

@@ -1,10 +1,10 @@
 # EDBingo - Tela de Sorteio
 
-## v0.10.1
+## v0.11.0
 
 > Tela para um sorteio de Bingo.
 
-### Atenção: Este projeto é para uso didático. Não use em produção.
+### Atenção: Este projeto é para uso didático. Não use em produção
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability)](https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability)
 
