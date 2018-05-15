@@ -38,7 +38,7 @@ export default {
   data () {
     return {
       numeroAdicionado: 0,
-      musica: new Audio('static/sounds/sound.mp3')
+      musica: new Audio('/sounds/sound.mp3')
     }
   },
   methods: {

@@ -1,6 +1,12 @@
 # EDBingo - Tela de Sorteio
 
-## v0.12.0
+## v1.0.0
+
+### Mudanças na v1.0.0
+
+- Novos arquivos de configuração.
+- Ajustes para o uso com a nova ferramenta de desenvolvimento.
+- Migrado para vue-cli 3.
 
 ### Mudanças na v0.12.0
 

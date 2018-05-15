@@ -1,12 +1,10 @@
 import Vue from 'vue'
-import App from './App'
+import App from './App.vue'
 
 Vue.config.productionTip = false
 
 window.vm = new Vue({
-  el: '#app',
-  template: '<App/>',
-  components: { App },
+  render: h => h(App),
   created () {
     require('animate.css/animate.min.css')
     window.$.fn.extend({
@@ -18,4 +16,4 @@ window.vm = new Vue({
       }
     })
   }
-})
+}).$mount('#app')
