@@ -35,11 +35,6 @@ export default {
     ModalTabela,
     ModalInfo
   },
-  computed: {
-    numero () {
-      return //this.numeroAdicionado
-    }
-  },
   data () {
     return {
       numeroAdicionado: 0,
@@ -61,7 +56,6 @@ export default {
         .addClass('animated zoomOutLeft')
         .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
           function(){
-            // vm.musica.play()
             $('#bola').addClass('zoomIn').removeClass('zoomOutLeft')
         })
       setTimeout(vm.addUm,1000)
@@ -85,19 +79,25 @@ export default {
 <style lang="sass">
   html
     height: 100%
+  
   body
     height: 100%
     min-height: 100%
+  
   .edb-altura-min
     height: 100%
     min-height: 100%
+  
   .edb-cursor
     cursor: pointer
+  
   .edb-menu
     color: #ccc
+  
   .edb-menu:hover
     color: #000
     cursor: pointer
+  
   .edb-numeracao
     font-size: 16rem
     border: thin #f1f1f1
@@ -105,13 +105,18 @@ export default {
     background-color: #f1f1f1
     min-width: 20rem
     min-height: 20rem
+  
   .edb-h1
     font-size: 16rem
+  
   #logo:hover
     cursor: pointer
+  
   .modal-giga
     width: 90% !important
     max-width: 90% !important
+  
   #tocador
     display: none
+
 </style>
