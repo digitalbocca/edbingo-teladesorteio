@@ -3,31 +3,5 @@
 module.exports = {
   outputDir: 'docs',
   productionSourceMap: false,
-  configureWebpack: config => {
-    if (process.env.NODE_ENV === 'production') {
-      return {
-        output: {
-          publicPath: ''
-        }
-      }
-    } else {
-      // mutate for development...
-    }
-  }
+  baseUrl: process.env.NODE_ENV === 'production' ? '' : '/'
 }
-
-// module.exports = {
-//   configureWebpack: {
-//     mode: 'production',
-//     output: {
-//       publicPath: '',
-//       sourceMapFilename: 'asdf',
-//       // noSources: true
-//     },
-//     plugins: [
-//       'sourcemapdevtoolplugin' : {
-//         noSources: true
-//       }
-//     ]
-//   }
-// }

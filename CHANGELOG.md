@@ -1,6 +1,11 @@
 # EDBingo - Tela de Sorteio
 
-## v1.3.0
+## v1.4.0
+
+### Mudanças na v1.4.0
+
+- Mudança nas configurações de build.
+- Atualização de dependências.
 
 ### Mudanças na v1.3.0
 
