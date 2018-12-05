@@ -1,8 +1,8 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "config": {
-    "commitMessage": "Mudança nas configurações de build"
+    "commitMessage": "Atualização de dependências"
   },
   "private": true,
   "scripts": {
@@ -23,8 +23,8 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.1.1",
-    "@vue/cli-service": "^3.1.4",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
     "cross-var-no-babel": "^1.2.0",
     "node-sass": "^4.10.0",
     "pug": "^2.0.3",
