@@ -1,6 +1,11 @@
 # EDBingo - Tela de Sorteio
 
-## v1.5.0
+## v1.6.0
+
+### Mudanças na v1.6.0
+
+- Atualização do CDN Bootstrap.
+- Atualização de dependências.
 
 ### Mudanças na v1.5.0
 
