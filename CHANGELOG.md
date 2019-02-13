@@ -1,6 +1,14 @@
 # EDBingo - Tela de Sorteio
 
-## v1.6.0
+## v1.7.0
+
+### Mudanças na v1.7.0
+
+- Arquivos de som movidos para pasta static.
+- Adicionados favicons.
+- HTML migrado para PUG.
+- Bundler migrado para Parcel.
+- Atualização de dependências.
 
 ### Mudanças na v1.6.0
 

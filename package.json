@@ -1,13 +1,14 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "config": {
-    "commitMessage": "Atualização do CDN Bootstrap"
+    "commitMessage": "Bundler migrado para Parcel"
   },
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "parcel ./src/index.pug -p 8080 -d ./docs --no-cache",
+    "build": "parcel build ./src/index.pug -d ./docs --no-cache --no-source-maps --public-url ./",
+    "prod": "http-server ./docs -o -c-1",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpu",
     "gst": "git status",
     "gad": "git add .",
@@ -20,18 +21,20 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "vue": "^2.5.21"
+    "vue": "^2.6.6",
+    "vue-hot-reload-api": "^2.3.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.2.2",
-    "@vue/cli-service": "^3.2.3",
+    "@vue/component-compiler-utils": "^2.5.2",
     "cross-var-no-babel": "^1.2.0",
-    "node-sass": "^4.11.0",
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-static-files-copy": "^2.0.0",
     "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^7.1.0",
+    "sass": "^1.17.0",
     "standard": "^12.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.6"
   },
   "browserslist": [
     "> 1%",
