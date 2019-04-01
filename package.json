@@ -1,8 +1,8 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "config": {
-    "commitMessage": "Bundler migrado para Parcel"
+    "commitMessage": "Atualizado CDN Bootstrap"
   },
   "private": true,
   "scripts": {
@@ -21,20 +21,20 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "vue": "^2.6.6",
-    "vue-hot-reload-api": "^2.3.2"
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.5.2",
+    "@vue/component-compiler-utils": "^2.6.0",
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.11.1",
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.3",
     "parcel-plugin-clean-dist": "0.0.6",
     "parcel-plugin-static-files-copy": "^2.0.0",
     "pug": "^2.0.3",
-    "sass": "^1.17.0",
+    "sass": "^1.17.3",
     "standard": "^12.0.1",
-    "vue-template-compiler": "^2.6.6"
+    "vue-template-compiler": "^2.6.10"
   },
   "browserslist": [
     "> 1%",
