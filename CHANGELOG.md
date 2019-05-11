@@ -1,6 +1,11 @@
 # EDBingo - Tela de Sorteio
 
-## v1.8.0
+## v1.9.0
+
+### Mudanças na v1.9.0
+
+- Atualizado endereço do favicon EDB.
+- Atualização de dependências.
 
 ### Mudanças na v1.8.0
 
