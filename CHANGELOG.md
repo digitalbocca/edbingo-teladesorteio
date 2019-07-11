@@ -1,6 +1,10 @@
 # EDBingo - Tela de Sorteio
 
-## v1.9.0
+## v1.10.0
+
+### Mudanças na v1.10.0
+
+- Atualização de dependências.
 
 ### Mudanças na v1.9.0
 
