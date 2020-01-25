@@ -1,6 +1,13 @@
 # EDBingo - Tela de Sorteio
 
-## v1.12.0
+## v1.13.0
+
+### Mudanças na v1.13.0
+
+- Atualização na exibição das datas.
+- Trocado plugin que limpa a pasta docs.
+- Atualizado CDN Bootstrap.
+- Atualização de dependências.
 
 ### Mudanças na v1.12.0
 
@@ -130,3 +137,5 @@
 - Atualização do README.
 - Adicionado CHANGELOG.
 - Adicionada Licença MIT.
+
+> (c)2020 - Estúdio Digital Bocca

@@ -21,7 +21,7 @@
             h1.edb-h1 {{ numeroAdicionado }}
       .row
         .col.text-center
-          p &copy;2017-2019 Estúdio Digital Bocca
+          p &copy;2017-2020 Estúdio Digital Bocca
 </template>
 
 <script>

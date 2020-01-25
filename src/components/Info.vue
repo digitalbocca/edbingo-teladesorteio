@@ -13,7 +13,7 @@
             a(href="https://github.com/digitalbocca/edbingo-teladesorteio") https://github.com/digitalbocca/edbingo-teladesorteio
           li
             a(href="https://digitalbocca.github.io/edbingo-teladesorteio") https://digitalbocca.github.io/edbingo-teladesorteio
-        p.text-center &copy;2017-2019 Estúdio Digital Bocca
+        p.text-center &copy;2017-2020 Estúdio Digital Bocca
 </template>
 
 <script>
