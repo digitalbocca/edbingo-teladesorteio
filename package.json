@@ -1,8 +1,8 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "1.13.0",
+  "version": "1.13.2",
   "config": {
-    "commitMessage": "Atualizado CDN Bootstrap"
+    "commitMessage": "Correção no controle de versão"
   },
   "parcelCleanPaths": [
     "docs"

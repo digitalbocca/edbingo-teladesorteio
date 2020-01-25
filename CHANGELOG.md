@@ -1,6 +1,14 @@
 # EDBingo - Tela de Sorteio
 
-## v1.13.0
+## v1.13.2
+
+### Mudanças na v1.13.2
+
+- Correção no controle de versão.
+
+### Mudanças na v1.13.1
+
+- Resolvendo o Merge.
 
 ### Mudanças na v1.13.0
 
@@ -8,6 +16,14 @@
 - Trocado plugin que limpa a pasta docs.
 - Atualizado CDN Bootstrap.
 - Atualização de dependências.
+
+### Mudanças na v1.12.2
+
+- Merge pull request #1 from digitalbocca/dependabot/npm_and_yarn/serialize-to-js-3.0.1.
+
+### Mudanças na v1.12.1
+
+- Bump serialize-to-js from 3.0.0 to 3.0.1
 
 ### Mudanças na v1.12.0
 
