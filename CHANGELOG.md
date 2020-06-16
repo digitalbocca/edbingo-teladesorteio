@@ -1,6 +1,49 @@
-# EDBingo - Tela de Sorteio
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v1.14.0</p>
+  <h1 align="center">EDBingo - Tela de Sorteio</h1>
+  <h4 align="center">
+    Tela para um sorteio de Bingo.
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v1.14.0/orange">
+    <a href="https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability">
+      <img src="https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability">
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/uses-badges.svg">
+    </a>
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/contains-technical-debt.svg">
+    </a>
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/built-by-developers.svg">
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/feross/standard">
+      <img src="https://cdn.rawgit.com/feross/standard/master/badge.svg">
+    </a>
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## v1.13.2
+---
+
+# edbingo-teladesorteio - CHANGELOG
+
+---
+
+## REGISTRO DE ALTERAÇÕES
+
+### Mudanças na v1.14.0
+
+- Arquivos .md seguem o padrão EDB2020.
+- Removido suporte ao responsive voice.
+- Resolvido problema com a nova versão do animate.css.
+- Atualização de dependências.
 
 ### Mudanças na v1.13.2
 

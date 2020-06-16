@@ -1,18 +1,42 @@
-# EDBingo - Tela de Sorteio
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v1.14.0</p>
+  <h1 align="center">EDBingo - Tela de Sorteio</h1>
+  <h4 align="center">
+    Tela para um sorteio de Bingo.
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v1.14.0/orange">
+    <a href="https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability">
+      <img src="https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability">
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/uses-badges.svg">
+    </a>
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/contains-technical-debt.svg">
+    </a>
+    <a href="https://forthebadge.com">
+      <img src="https://forthebadge.com/images/badges/built-by-developers.svg">
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/feross/standard">
+      <img src="https://cdn.rawgit.com/feross/standard/master/badge.svg">
+    </a>
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## v1.13.2
+---
 
-> Tela para um sorteio de Bingo.
+# edbingo-teladesorteio - README
 
-### Atenção: Este projeto é para uso didático. Não use em produção
+---
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability)](https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability)
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
+## Atenção: Este projeto é para uso didático. Não use em produção
 
 ---
 
@@ -40,6 +64,10 @@
 >Obrigado.
 
 ---
+
+## REGISTRO DE ALTERAÇÕES
+
+Veja no arquivo [CHANGELOG](CHANGELOG.md)
 
 ## LICENÇA
 

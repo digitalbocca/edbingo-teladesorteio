@@ -67,7 +67,7 @@ export default {
       this.numeroAdicionado++
       let oNumero = this.numeroAdicionado.toString()
       console.log(oNumero)
-      responsiveVoice.speak(oNumero, 'Brazilian Portuguese Female')
+      // responsiveVoice.speak(oNumero, 'Brazilian Portuguese Female')
     },
     abreModal (id) {
       $('#'+id).modal('toggle')
