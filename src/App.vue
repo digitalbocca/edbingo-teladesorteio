@@ -1,27 +1,27 @@
 <template lang="pug">
-  .edb-altura-min#app
-    modal-tabela
-    modal-info
-    .edb-altura-min.container-fluid.d-flex.flex-column.justify-content-between
-      .row
-        .col
-          .row
-            .col
-              h1#logo(@click="animaLogo()") EDBingo
-            .col.d-flex.justify-content-end.align-items-center
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="sauto()") S.AUTO
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="parar()") PARAR 
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="anime()") SORTEIA 
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalTabela')") TABELA 
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button") ENCERRA 
-              button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalInfo')") INFO 
-      .row
-        .col.text-center.d-flex.justify-content-center
-          .edb-numeracao#bola
-            h1.edb-h1 {{ numeroAdicionado }}
-      .row
-        .col.text-center
-          p &copy;2017-2020 Estúdio Digital Bocca
+.edb-altura-min#app
+  modal-tabela
+  modal-info
+  .edb-altura-min.container-fluid.d-flex.flex-column.justify-content-between
+    .row
+      .col
+        .row
+          .col
+            h1#logo(@click="animaLogo()") EDBingo
+          .col.d-flex.justify-content-end.align-items-center
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="sauto()") S.AUTO
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="parar()") PARAR 
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="anime()") SORTEIA 
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalTabela')") TABELA 
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button") ENCERRA 
+            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalInfo')") INFO 
+    .row
+      .col.text-center.d-flex.justify-content-center
+        .edb-numeracao#bola
+          h1.edb-h1 {{ numeroAdicionado }}
+    .row
+      .col.text-center
+        p &copy;2017-2020 Estúdio Digital Bocca
 </template>
 
 <script>
@@ -40,6 +40,17 @@ export default {
       numeroAdicionado: 0,
       musica: new Audio('sounds/sound.mp3')
     }
+  },
+  created () {
+    require('animate.css/animate.compat.css')
+    window.$.fn.extend({
+      animateCss (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+        this.addClass('animated ' + animationName).one(animationEnd, function () {
+          window.$(this).removeClass('animated ' + animationName)
+        })
+      }
+    })
   },
   methods: {
     sauto () {

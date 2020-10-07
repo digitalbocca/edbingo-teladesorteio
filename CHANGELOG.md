@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v1.14.0</p>
+  <p align="center">Ultima Atualização na v2.0.0</p>
   <h1 align="center">EDBingo - Tela de Sorteio</h1>
   <h4 align="center">
     Tela para um sorteio de Bingo.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v1.14.0/orange">
+    <img src="https://badgen.net/badge/version/v2.0.0/orange">
     <a href="https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability">
     </a>
@@ -37,6 +37,13 @@
 ---
 
 ## REGISTRO DE ALTERAÇÕES
+
+### Mudanças na v2.0.0
+
+- Atualizado parcel para versão 2.
+- Atualizado o processo de build.
+- Atualizado Vue para a versão 3.
+- Atualização de dependências.
 
 ### Mudanças na v1.14.0
 

@@ -1,8 +1,13 @@
-import Vue from 'vue'
+'use strict'
+
+import { createApp } from 'vue'
 import App from './App.vue'
 
-Vue.config.productionTip = false
+const app = createApp(App)
 
+app.config.productionTip = false
+
+/*
 window.vm = new Vue({
   render: h => h(App),
   created () {
@@ -17,3 +22,7 @@ window.vm = new Vue({
     })
   }
 }).$mount('#app')
+
+*/
+
+app.mount('#app')
