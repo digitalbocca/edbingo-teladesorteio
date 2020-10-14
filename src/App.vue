@@ -1,39 +1,33 @@
 <template lang="pug">
-.edb-altura-min#app
-  modal-tabela
-  modal-info
-  .edb-altura-min.container-fluid.d-flex.flex-column.justify-content-between
-    .row
-      .col
-        .row
-          .col
-            h1#logo(@click="animaLogo()") EDBingo
-          .col.d-flex.justify-content-end.align-items-center
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="sauto()") S.AUTO
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="parar()") PARAR 
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="anime()") SORTEIA 
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalTabela')") TABELA 
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button") ENCERRA 
-            button.btn.btn-outline-secondary.btn-sm.mx-1.edb-cursor(type="button", @click="abreModal('modalInfo')") INFO 
-    .row
-      .col.text-center.d-flex.justify-content-center
-        .edb-numeracao#bola
-          h1.edb-h1 {{ numeroAdicionado }}
-    .row
-      .col.text-center
-        p &copy;2017-2020 Estúdio Digital Bocca
+
+modal-info
+modal-tabela
+top-bar
+home
+edb-footer
+
 </template>
 
 <script>
 
-import ModalTabela from './components/ModalTabela'
-import ModalInfo from './components/ModalInfo'
+import ModalTabela from './components/modal-tabela'
+import ModalInfo from './components/modal-info'
+
+import Home from './views/home'
+
+import Modal from './components/modal'
+import TopBar from './components/top-bar'
+import EdbFooter from './components/edb-footer'
 
 export default {
   name: 'app',
   components: {
     ModalTabela,
-    ModalInfo
+    ModalInfo,
+    EdbFooter,
+    Home,
+    TopBar,
+    Modal
   },
   data () {
     return {
@@ -42,6 +36,7 @@ export default {
     }
   },
   created () {
+    /*
     require('animate.css/animate.compat.css')
     window.$.fn.extend({
       animateCss (animationName) {
@@ -51,6 +46,7 @@ export default {
         })
       }
     })
+    */
   },
   methods: {
     sauto () {
@@ -86,48 +82,3 @@ export default {
   }
 }
 </script>
-
-<style lang="sass">
-  html
-    height: 100%
-  
-  body
-    height: 100%
-    min-height: 100%
-  
-  .edb-altura-min
-    height: 100%
-    min-height: 100%
-  
-  .edb-cursor
-    cursor: pointer
-  
-  .edb-menu
-    color: #ccc
-  
-  .edb-menu:hover
-    color: #000
-    cursor: pointer
-  
-  .edb-numeracao
-    font-size: 16rem
-    border: thin #f1f1f1
-    border-radius: 50%
-    background-color: #f1f1f1
-    min-width: 20rem
-    min-height: 20rem
-  
-  .edb-h1
-    font-size: 16rem
-  
-  #logo:hover
-    cursor: pointer
-  
-  .modal-giga
-    width: 90% !important
-    max-width: 90% !important
-  
-  #tocador
-    display: none
-
-</style>

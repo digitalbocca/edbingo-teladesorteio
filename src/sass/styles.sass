@@ -1,0 +1,125 @@
+/**
+ *
+ *                         88  88           
+ *                         88  88           
+ *                         88  88           
+ *     ,adPPYba,   ,adPPYb,88  88,dPPYba,   
+ *    a8P_____88  a8"    `Y88  88P'    "8a  
+ *    8PP"""""""  8b       88  88       d8  
+ *    "8b,   ,aa  "8a,   ,d88  88b,   ,a8"  
+ *     `"Ybbd8"'   `"8bbdP"Y8  8Y"Ybbd8"'   
+ *
+ *                                         
+ *       (c)2020 Estúdio Digital Bocca
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
+@import colors
+
+/**
+ * Animações
+ */
+
+@import animation-in
+@import animation-out
+@import animation-puff
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body, html
+  font-family: 'Montserrat', sans-serif
+  font-size: 16px
+  
+  min-height: 100vh
+
+.container
+  display: flex
+  flex-direction: column
+
+  min-height: 100vh
+
+.flex-grow
+  flex-grow: 1
+
+/**
+ * Formatação de texto
+ */
+
+.text-center
+  text-align: center
+
+.text-uppercase
+  text-transform: uppercase
+
+/**
+ * Botões
+ */
+
+.btn
+  background-color: $grey-light
+  color: #fff
+
+  padding: .85rem .75rem
+  margin: .4rem
+
+  font-size: 1.1rem
+
+  border: none
+  border-radius: 5px
+
+  text-transform: uppercase
+
+.btn:hover
+  cursor: pointer
+
+.btn-primary
+  background-color: $primary
+  transition: all ease 600ms
+
+.btn-primary:hover
+  background-color: $darker
+  transition: all ease 600ms
+
+.btn-secondary
+  background-color: $secondary
+  transition: all ease 600ms
+
+.btn-secondary:hover
+  background-color: $darker
+  transition: all ease 600ms
+
+.modal-content
+  background-color: #fff
+
+  width: 90%
+  height: 90%
+
+  padding: 1rem .5rem
+  margin: auto
+
+  border-radius: 5px
+
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.modal-content ul,
+.modal-content table
+  display: block
+  overflow: auto
+  text-overflow: ellipsis
+  width: 100%
+  text-align: center
+
+.modal-content li
+  padding-top: 1rem
+
+.modal-content-title
+  padding-bottom: 1rem
+
+.modal-content-footer
+  padding-top: 1rem

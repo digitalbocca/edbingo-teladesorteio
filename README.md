@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v2.0.0</p>
+  <p align="center">Ultima Atualização na v2.1.0</p>
   <h1 align="center">EDBingo - Tela de Sorteio</h1>
   <h4 align="center">
     Tela para um sorteio de Bingo.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v2.0.0/orange">
+    <img src="https://badgen.net/badge/version/v2.1.0/orange">
     <a href="https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability">
     </a>
@@ -42,10 +42,9 @@
 
 ## PROPOSTA
 
-- Fazer a tela de sorteio de um bingo utilizando Vue 2, Bootstrap 4, Animate.css.
-- Fazer um círculo simulando uma bola de bingo e anima-la com Animate.css.
+- Fazer a tela de sorteio de um bingo utilizando Vue 3.
 - Fazer uma tabela com os números das bolas, destacando as que já foram sorteadas.
-- Abrir a tabela de números sorteados em um modal Bootstrap.
+- Abrir a tabela de números sorteados em um modal utilizando vuex.
 - Simular o funcionamento do sorteio incrementando 1 ao numero atual usando o Vue.
 
 ---

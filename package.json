@@ -1,12 +1,9 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "config": {
-    "commitMessage": "Atualização de dependências"
+    "commitMessage": "Melhoria geral no layout"
   },
-  "parcelCleanPaths": [
-    "docs"
-  ],
   "private": true,
   "scripts": {
     "clean": "rm -rf ./docs",
@@ -28,18 +25,17 @@
     "gpb": "git push bitbucket master --tags"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-beta.13",
+    "vuex": "^4.0.0-beta.4"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0",
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.12.3",
     "parcel": "^2.0.0-nightly.416",
-    "parcel-plugin-clean-easy": "^1.0.2",
-    "parcel-plugin-static-files-copy": "^2.5.0",
     "pug": "^3.0.0",
-    "sass": "^1.26.12",
+    "sass": "^1.27.0",
     "standard": "^14.3.4"
   },
   "browserslist": [
