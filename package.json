@@ -34,7 +34,7 @@
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.12.3",
     "parcel": "^2.0.0-nightly.416",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "sass": "^1.27.0",
     "standard": "^14.3.4"
   },
