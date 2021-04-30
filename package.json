@@ -1,8 +1,8 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "config": {
-    "commitMessage": "Atualização de dependências"
+    "commitMessage": "Correção no build"
   },
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "predev": "npm run clean && npm run new-dist && npm run static-copy",
     "dev": "parcel serve ./src/index.pug -p 8080 --dist-dir ./docs --no-cache",
     "prebuild": "npm run predev",
-    "build": "parcel build ./src/index.pug --dist-dir ./docs --no-cache --no-source-maps --public-url ./",
+    "build": "parcel build ./src/index.pug --dist-dir ./docs --no-cache --no-source-maps --public-url ./ --no-scope-hoist",
     "prod": "http-server ./docs -o -c-1",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpu",
     "gst": "git status",
