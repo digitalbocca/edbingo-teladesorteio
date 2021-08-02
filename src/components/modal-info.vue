@@ -47,7 +47,7 @@
       </ul>
     </div>
     <p class="text-center modal-content-footer">
-      &copy;2017-2020 Estúdio Digital Bocca
+      &copy;2017-2021 Estúdio Digital Bocca
     </p>
   </template>
 </modal>
