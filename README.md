@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v2.3.1</p>
+  <p align="center">v2.4.0</p>
   <h1 align="center">EDBingo - Tela de Sorteio</h1>
   <h4 align="center">
     Tela para um sorteio de Bingo.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v2.3.1/orange">
+    <img src="https://badgen.net/badge/version/v2.4.0/orange">
     <a href="https://codeclimate.com/github/digitalbocca/edbingo-teladesorteio/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/05fc13146ed957dee79f/maintainability">
     </a>
@@ -27,7 +27,7 @@
       <img src="https://cdn.rawgit.com/feross/standard/master/badge.svg">
     </a>
   </p>
-  <p align="center">(c)2017-2021 Estúdio Digital Bocca</p>
+  <p align="center">(c)2017-2023 Estúdio Digital Bocca</p>
 </p>
 
 ---

@@ -31,5 +31,4 @@ export default {
 
     padding: 2rem 1rem
 
-
 </style>

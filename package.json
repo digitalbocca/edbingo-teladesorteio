@@ -1,8 +1,8 @@
 {
   "name": "edbingo-teladesorteio",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "config": {
-    "commitMessage": "Corrige ano de copyright"
+    "commitMessage": "Atualiza dependências"
   },
   "private": true,
   "scripts": {
@@ -19,27 +19,26 @@
     "gad": "git add .",
     "gco": "cross-var git commit -m \"$npm_package_config_commitMessage\"",
     "gta": "cross-var git tag v$npm_package_version",
-    "gpu": "npm run gpo && npm run gpb && npm run gpg",
+    "gpu": "npm run gpo && npm run gpg",
     "gpo": "git push origin master --tags",
-    "gpg": "git push gitlab master --tags",
-    "gpb": "git push bitbucket master --tags"
+    "gpg": "git push gh master --tags"
   },
   "dependencies": {
-    "vue": "^3.1.5",
-    "vue-router": "^4.0.10",
-    "vuex": "^4.0.2"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.0.0-nightly.794",
-    "@parcel/transformer-sass": "^2.0.0-nightly.794",
-    "@parcel/transformer-vue": "^2.0.0-nightly.2416",
-    "@vue/compiler-sfc": "^3.1.5",
+    "@parcel/transformer-pug": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-vue": "^2.8.3",
+    "@vue/compiler-sfc": "^3.2.47",
     "cross-var-no-babel": "^1.2.0",
-    "http-server": "^0.12.3",
-    "parcel": "^2.0.0-beta.3.1",
+    "http-server": "^14.1.1",
+    "parcel": "^2.8.3",
     "pug": "^3.0.2",
-    "sass": "^1.37.0",
-    "standard": "^16.0.3"
+    "sass": "^1.62.0",
+    "standard": "^17.0.0"
   },
   "browserslist": [
     "> 1%",

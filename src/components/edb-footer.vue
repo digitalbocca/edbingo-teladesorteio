@@ -1,7 +1,7 @@
 <template lang="pug">
 
 .footer
-  p.text-center &copy;2017-2021 Estúdio Digital Bocca
+  p.text-center &copy;2017-2023 Estúdio Digital Bocca
 
 </template>
 
